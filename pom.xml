@@ -42,7 +42,7 @@
 		<dependency>
 			<groupId>com.github.Pacsoda</groupId>
 			<artifactId>microservicios-commons</artifactId>
-			<version>master-SNAPSHOT</version>
+			<version>-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
