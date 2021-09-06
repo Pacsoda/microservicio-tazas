@@ -9,6 +9,14 @@
 		<version>2.5.3</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+
+ 	<scm>
+        <connection>scm:git:git@github.com:Pacsoda/microservicios-commons.git</connection>
+        <developerConnection>scm:git:git@github.com:Pacsoda/microservicios-commons.git</developerConnection>
+        <url>https://github.com/Pacsoda/microservicios-commons</url>
+        <tag>HEAD</tag>
+    </scm>
+
 	<groupId>com.microservicios.app.tazas</groupId>
 	<artifactId>microservicios-tazas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
