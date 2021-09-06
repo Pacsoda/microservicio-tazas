@@ -9,14 +9,6 @@
 		<version>2.5.3</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-
- 	<scm>
-        <connection>scm:git:git@github.com:Pacsoda/microservicios-commons.git</connection>
-        <developerConnection>scm:git:git@github.com:Pacsoda/microservicios-commons.git</developerConnection>
-        <url>https://github.com/Pacsoda/microservicios-commons</url>
-        <tag>HEAD</tag>
-    </scm>
-
 	<groupId>com.microservicios.app.tazas</groupId>
 	<artifactId>microservicios-tazas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -27,17 +19,32 @@
 		<spring-cloud.version>2020.0.3</spring-cloud.version>
 	</properties>
 
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.microservicios.commons.tazas</groupId>
 			<artifactId>microservicios-commons-tazas</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		
+		<!--
 		<dependency>
 			<groupId>com.microservicios.commons</groupId>
 			<artifactId>microservicios-commons</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+		</dependency>-->
+		<dependency>
+			<groupId>com.github.Pacsoda</groupId>
+			<artifactId>microservicios-commons</artifactId>
+			<version>Tag</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
