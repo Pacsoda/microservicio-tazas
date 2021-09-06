@@ -32,7 +32,7 @@
 			<artifactId>microservicios-commons-tazas</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		
+
 		<!--
 		<dependency>
 			<groupId>com.microservicios.commons</groupId>
@@ -42,7 +42,7 @@
 		<dependency>
 			<groupId>com.github.Pacsoda</groupId>
 			<artifactId>microservicios-commons</artifactId>
-			<version>Tag</version>
+			<version>master-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
