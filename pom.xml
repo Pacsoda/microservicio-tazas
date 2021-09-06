@@ -68,6 +68,13 @@
 		</dependency>
 	</dependencies>
 
+
+	<repository>
+    	<id>microservicios-commons</id>
+    	<name>microservicios-commons</name>
+    	<url>https://github.com/Pacsoda/microservicios-commons</url>
+	</repository>
+
 	<build>
 		<plugins>
 			<plugin>
